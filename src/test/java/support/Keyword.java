@@ -1,6 +1,7 @@
 package support;
 
 import config.Constants;
+import executionEngine.RunTestNG;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,14 +19,13 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static executionEngine.Controller.OR;
 import static support.ExecuteTestcase.*;
 
 
 /**
  * Created by DoaiTran on 26-Oct-16.
  * Create all definitions for actions on Selenium
- * Lasted Upgrade: 26-Nov-2016.
+ * Lasted Upgrade: 12-Dec-2016. For Maven and TestNG:  RunTestNG
  */
 public class Keyword {
     public static WebDriver DRIVER;
@@ -117,11 +117,11 @@ public class Keyword {
         /** Des: This function is used to click on Elements
         /** Created by DoaiTran. 26-Oct-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /*******************************************************************************************************/
         try {
             Log.info("*Try to Click on WebElement*");
-            DRIVER.findElement(By.xpath(OR.getProperty(object))).click();
+            DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object))).click();
             Log.info("Clicked on WebElement "+ object);
         }catch (Exception e){
             Log.info("-------- Unable to click Element: "+object+" --------"+e.getMessage());
@@ -133,11 +133,11 @@ public class Keyword {
         /** Des: This function is used to clickElementByLinkText
         /** Created by DoaiTran. 26-Oct-2016
         /** Modification History:
-        /**        Modify by: DoaiTran           Date: 27-Oct-2016       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try {
             Log.info("*Try to Click on WebElement ByLinkText*");
-            DRIVER.findElement(By.linkText(OR.getProperty(object))).click();
+            DRIVER.findElement(By.linkText(RunTestNG.OR.getProperty(object))).click();
             Log.info("Clicked on WebElement ByLinkText "+ object);
         }catch (Exception e){
             Log.info("-------- Unable to click Element By LinkText: "+object+" --------"+e.getMessage());
@@ -167,13 +167,13 @@ public class Keyword {
         /** Des: This function is used to clear and input data to text box.
         /** Created by DoaiTran. On: 07-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to input value*");
             WebDriverWait wait = new WebDriverWait(DRIVER, 15);
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(OR.getProperty(object)))).clear();
-            DRIVER.findElement(By.xpath(OR.getProperty(object))).sendKeys(data);
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(RunTestNG.OR.getProperty(object)))).clear();
+            DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object))).sendKeys(data);
             Log.info("Inputed value: "+ data + " to element " + object);
         }catch (Exception e){
             Log.info("-------- Unable to input value: "+ data + " to element " + object+" --------"+ e.getMessage());
@@ -185,12 +185,12 @@ public class Keyword {
         /** Des: This function is used to clear data on text box
         /** Created by DoaiTran. On: 07-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try clear data on TextBox*");
             WebDriverWait wait = new WebDriverWait(DRIVER, 15);
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(OR.getProperty(object)))).clear();
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(RunTestNG.OR.getProperty(object)))).clear();
             Log.info("Cleared data on TextBox: "+object);
         }catch (Exception e){
             Log.info("-------- Unable to clear TextBox: "+object+" --------"+e.getMessage());
@@ -202,12 +202,12 @@ public class Keyword {
         /** Des: This function is used to submit button
         /** Created by DoaiTran. On: 13-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to submit the button*");
             WebDriverWait wait = new WebDriverWait(DRIVER, 15);
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(OR.getProperty(object)))).submit();
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(RunTestNG.OR.getProperty(object)))).submit();
             Log.info("Submitted the button: "+object);
         }catch (Exception e){
             Log.info("-------- Unable to submit button: "+object+" --------"+e.getMessage());
@@ -270,12 +270,12 @@ public class Keyword {
         /** Des: This function is used to movetoElement
         /** Created by DoaiTran. On: 13-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to hover to move To Element*");
             Actions actions = new Actions(DRIVER);
-            WebElement Element = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement Element = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             actions.moveToElement(Element).perform();
             Log.info("Hovered to move To Element: "+object);
         }catch (Exception e){
@@ -288,12 +288,12 @@ public class Keyword {
         /** Des: This function is used to doubleClick
         /** Created by DoaiTran. On: 20-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to DoubleClick on Element*");
             Actions actions = new Actions(DRIVER);
-            WebElement Element = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement Element = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             actions.doubleClick().perform();
             Log.info("DoubleClicked on Element: "+ data);
         }catch (Exception e){
@@ -306,12 +306,12 @@ public class Keyword {
         /** Des: This function is used to waitForElementPresent
         /** Created by DoaiTran. On: 20-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to Wait for element present*");
             WebDriverWait wait = new WebDriverWait(DRIVER, 15);
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(OR.getProperty(object))));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(RunTestNG.OR.getProperty(object))));
             Log.info("Element: "+object+" is presented.");
         }catch (Exception e){
             Log.info("-------- Element: "+object+" is not presented --------"+e.getMessage());
@@ -323,12 +323,12 @@ public class Keyword {
         /** Des: This function is used to Verify element is existedt
         /** Created by DoaiTran. On: 20-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try toVerify Element is existed*");
             WebDriverWait wait = new WebDriverWait(DRIVER, 15);
-            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(OR.getProperty(object))));
+            wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(RunTestNG.OR.getProperty(object))));
             Log.info("Element: "+object+" is existed");
         }catch (Exception e) {
             Log.info("-------- Element: "+object+" is not existed --------"+e.getMessage());
@@ -340,11 +340,11 @@ public class Keyword {
         /** Des: This function is used to verify actual text and expected text.
         /** Created by DoaiTran. On: 21-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to verify text between get from element and expected text*");
-            String actualText = DRIVER.findElement(By.xpath(OR.getProperty(object))).getText();
+            String actualText = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object))).getText();
             if(actualText.equals(data)){
                 ExecuteTestcase.bResult = true;
                 Log.info("Expected text on "+object+"and actual text: "+data+" are the same.");
@@ -421,11 +421,11 @@ public class Keyword {
         /** Des: This function is used to select By Visible Text
         /** Created by DoaiTran. On: 21-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to select by visible text*");
-            Select selectAction =  new Select(DRIVER.findElement(By.xpath(OR.getProperty(object))));
+            Select selectAction =  new Select(DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object))));
             selectAction.selectByVisibleText(data);
             Log.info("Selected "+object+ " by visible text: "+data);
         }catch (Exception e){
@@ -438,11 +438,11 @@ public class Keyword {
         /** Des: This function is used to select By Value
         /** Created by DoaiTran. On: 21-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to select by value*");
-            Select selectAction =  new Select(DRIVER.findElement(By.xpath(OR.getProperty(object))));
+            Select selectAction =  new Select(DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object))));
             selectAction.selectByValue(data);
             Log.info("Selected "+object+ " by value. "+data);
         }catch (Exception e){
@@ -455,11 +455,11 @@ public class Keyword {
         /** Des: This function is used to select By Index
         /** Created by DoaiTran. On: 21-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to select by index*");
-            Select selectAction =  new Select(DRIVER.findElement(By.xpath(OR.getProperty(object))));
+            Select selectAction =  new Select(DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object))));
             selectAction.selectByIndex(data);
             Log.info("Selected "+object+ " by index: "+data);
         }catch (Exception e){
@@ -560,12 +560,12 @@ public class Keyword {
         /**  Created By: DoaiTran
         /**  Created Date: 22-Nov-2016
         /**  Modification History:
-        /**         Modify by:            Date:       Note:
+        /**         Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         boolean valueResult = false;
         try{
             Log.info("*Try to verify Text In Table*");
-            List<WebElement> listCell = DRIVER.findElements(By.xpath(OR.getProperty(object)));
+            List<WebElement> listCell = DRIVER.findElements(By.xpath(RunTestNG.OR.getProperty(object)));
             for (WebElement iCell: listCell){
                 if(iCell.getText().equals(data)){
                     Log.info("Value: "+data+" on table: "+object+" is existing.");
@@ -591,11 +591,11 @@ public class Keyword {
         /** Des: This function is used to verify Checkbox Is Checked
         /** Created by DoaiTran. On: 23-Nov-2016
         /** Modification History:
-        /**        Modify by:            Date:       Note:
+        /**        Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to verify Checkbox Is Checked*");
-            WebElement checkbox = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement checkbox = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             if(checkbox.isSelected() == true){
                 Log.info("CheckBox: "+object+" is checked.");
             }else{
@@ -613,11 +613,11 @@ public class Keyword {
         /** Created by DoaiTran. On: 23-Nov-2016
         /**
         /** Modification History:
-        /**       Modify by:            Date:       Note:
+        /**       Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /****************************************************************************************************/
         try{
             Log.info("*Try to verify Checkbox Is Not Checked*");
-            WebElement checkbox = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement checkbox = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             if(checkbox.isSelected() == false){
                 Log.info("CheckBox: "+object+" is NOT checked.");
             }else{
@@ -634,11 +634,11 @@ public class Keyword {
         /** Des: This function is used to verify Radio Is Checked
         /** Created by DoaiTran. On: 23-Nov-2016
         /** Modification History:
-        /**         Modify by:            Date:       Note:
+        /**         Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /**************************************************************************************************/
         try{
             Log.info("*Try to verify Radio Is Checked*");
-            WebElement radio = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement radio = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             if(radio.isSelected() == true){
                 Log.info("Radio: "+object+" is checked.");
             }else{
@@ -655,11 +655,11 @@ public class Keyword {
         /** Des: This function is used to verify Radio Is Not Checked
         /** Created by DoaiTran. On: 23-Nov-2016
         /** Modification History:
-        /**         Modify by:            Date:       Note:
+        /**         Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /**************************************************************************************************/
         try{
             Log.info("*Try to verify Radio Is Not Checked*");
-            WebElement radio = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement radio = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             if(radio.isSelected() == false){
                 Log.info("Radio: "+object+" is NOT checked.");
             }else{
@@ -676,11 +676,11 @@ public class Keyword {
         /** Des: This function is used to check Checkbox
         /** Created by DoaiTran. On: 24-Nov-2016
         /** Modification History:
-        /**         Modify by: DoaiTran            Date: 26-Nov-2016       Note:
+        /**         Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /**************************************************************************************************/
         try{
             Log.info("*Try to Check CheckBox*");
-            WebElement objCheckbox = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement objCheckbox = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             if(objCheckbox.isSelected()== false){
                 objCheckbox.click();
                 Log.info("Check CheckBox: "+object);
@@ -698,11 +698,11 @@ public class Keyword {
         /** Des: This function is used to uncheck Checkbox
         /** Created by DoaiTran. On: 24-Nov-2016
         /** Modification History:
-        /**         Modify by:            Date:       Note:
+        /**         Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /**************************************************************************************************/
         try{
             Log.info("*Try to unCheck CheckBox*");
-            WebElement objCheckbox = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement objCheckbox = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             if(objCheckbox.isSelected()== true){
                 objCheckbox.click();
                 Log.info("Uncheck CheckBox: "+object);
@@ -720,12 +720,12 @@ public class Keyword {
         /** Des: This function is used to click TreeView Item
         /** Created by DoaiTran. On: 25-Nov-2016
         /** Modification History:
-        /**         Modify by:            Date:       Note:
+        /**         Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /************************************************************************************************/
         boolean valueResult = false;
         try{
             Log.info("*Try to click TreeView Item*");
-            WebElement treeView = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement treeView = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             List<WebElement> listChild = treeView.findElements(By.tagName("span"));
             for (WebElement child : listChild)
                 if (child.getText() == data) {
@@ -749,12 +749,12 @@ public class Keyword {
         /** Des: This function is used to verify Treeview Item Exist
         /** Created by DoaiTran. On: 25-Nov-2016
         /** Modification History:
-        /**         Modify by:            Date:       Note:
+        /**         Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
         /************************************************************************************************/
         boolean valueResult = false;
         try{
             Log.info("*Try to verify TreeView Item Exist*");
-            WebElement treeView = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement treeView = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             List<WebElement> listChild = treeView.findElements(By.tagName("span"));
             for (WebElement child : listChild)
                 if (child.getText() == data) {
@@ -777,12 +777,12 @@ public class Keyword {
          /** Des: This function is used to verify Tree view Item Not Exist
          /** Created by DoaiTran. On: 25-Nov-2016
          /** Modification History:
-         /**         Modify by:            Date:       Note:
+         /**         Modify by: DoaiTran            Date: 12-Dec-2016       Note: For Maven and TestNG:  RunTestNG
          /************************************************************************************************/
         boolean valueResult = false;
         try{
             Log.info("*Try to verify TreeView Item Not Exist*");
-            WebElement treeView = DRIVER.findElement(By.xpath(OR.getProperty(object)));
+            WebElement treeView = DRIVER.findElement(By.xpath(RunTestNG.OR.getProperty(object)));
             List<WebElement> listChild = treeView.findElements(By.tagName("span"));
             for (WebElement child : listChild)
                 if (child.getText() == data) {
