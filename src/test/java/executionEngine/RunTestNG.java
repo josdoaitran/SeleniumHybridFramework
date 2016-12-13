@@ -13,7 +13,11 @@ import java.util.Properties;
 import static support.ExecuteTestcase.execute_TestCase;
 
 /**
- * Created by josdo on 07-Dec-16.
+ * Desc: This function is to set the control / Driver Script
+ * Created by DoaiTran on 27-Oct-16. => Transfer to RunTestNG by josdo on 07-Dec-16.
+ * Updated by DoaiTran on 19-Nov-16.
+ * Solution: https://goo.gl/iy3KJV
+ * Version 2 => using
  */
 public class RunTestNG {
     public static Properties OR;

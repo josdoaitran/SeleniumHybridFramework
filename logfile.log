@@ -1124,3 +1124,576 @@
 2016-12-12 15:25:10,454 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
 2016-12-12 15:25:10,454 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
 2016-12-12 15:25:10,454 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:49:13,309 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:49:13,335 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:49:13,335 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:49:13,335 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase1       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:49:13,335 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:49:13,335 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:49:13,337 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:49:28,539 INFO  [Log] Opened Browser: Chrome 
+2016-12-13 13:49:29,085 INFO  [Log] *Try to navigate to URL* 
+2016-12-13 13:49:41,080 INFO  [Log] Navigated to BASE_URL 
+2016-12-13 13:49:41,699 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:49:51,839 INFO  [Log] Clicked on WebElement TXT_STRATEGICDECISION 
+2016-12-13 13:49:52,055 INFO  [Log] *Try to navigate to back page* 
+2016-12-13 13:49:58,673 INFO  [Log] Navigated to back page 
+2016-12-13 13:49:58,848 INFO  [Log] *Try to Wait for element present* 
+2016-12-13 13:49:58,903 INFO  [Log] Element: TXT_LEADERSHIP is presented. 
+2016-12-13 13:49:59,022 INFO  [Log] *Try toVerify Element is existed* 
+2016-12-13 13:49:59,044 INFO  [Log] Element: TXT_LEADERSHIP is existed 
+2016-12-13 13:49:59,177 INFO  [Log] *Try to verify text between get from element and expected text* 
+2016-12-13 13:49:59,224 INFO  [Log] Expected text on TXT_AGILETESTINGand actual text: Agile Testing and ATDD Automation –  Free Tutorials are the same. 
+2016-12-13 13:49:59,326 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:50:02,215 INFO  [Log] *Closed the browser* 
+2016-12-13 13:50:02,402 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:50:02,402 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:50:02,403 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:50:02,403 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:50:02,674 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:50:02,674 INFO  [Log] X 
+2016-12-13 13:50:02,675 INFO  [Log] X 
+2016-12-13 13:50:02,675 INFO  [Log] X 
+2016-12-13 13:50:02,675 INFO  [Log] X 
+2016-12-13 13:50:02,675 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:50:02,675 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:50:02,675 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:50:02,675 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase2       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:50:02,675 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:50:02,675 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:50:02,675 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:50:15,723 INFO  [Log] Opened Browser:  
+2016-12-13 13:50:15,938 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:50:26,612 INFO  [Log] Navigated to specify URL: http://www.seleniumframework.com/Practiceform/ 
+2016-12-13 13:50:26,695 INFO  [Log] *Try to input value* 
+2016-12-13 13:50:27,822 INFO  [Log] Inputed value: We will test with Tiếng Việt value and special key !@#$@#%@%# to element TXT_TEXTAREA 
+2016-12-13 13:50:27,916 INFO  [Log] *Try to input value* 
+2016-12-13 13:50:28,246 INFO  [Log] Inputed value: ABCDEDF GHYUI IOPU to element TXT_BOX 
+2016-12-13 13:50:28,342 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:50:29,467 INFO  [Log] Clicked on WebElement CHK_OPTION1 
+2016-12-13 13:50:29,586 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:50:30,144 INFO  [Log] Clicked on WebElement LBL_OPTION1 
+2016-12-13 13:50:30,362 INFO  [Log] *Try to select by visible text* 
+2016-12-13 13:50:30,878 INFO  [Log] Selected LST_OPTION by visible text: Option 1 
+2016-12-13 13:50:30,986 INFO  [Log] *Try to select by visible text* 
+2016-12-13 13:50:31,674 INFO  [Log] Selected LST_OPTION by visible text: Option 2 
+2016-12-13 13:50:31,817 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:50:33,318 INFO  [Log] *Closed the browser* 
+2016-12-13 13:50:33,548 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:50:33,548 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:50:33,548 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:50:33,548 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:50:33,674 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:50:33,674 INFO  [Log] X 
+2016-12-13 13:50:33,674 INFO  [Log] X 
+2016-12-13 13:50:33,674 INFO  [Log] X 
+2016-12-13 13:50:33,674 INFO  [Log] X 
+2016-12-13 13:50:33,677 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:50:33,677 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:50:33,677 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:50:33,677 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase3       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:50:33,677 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:50:33,677 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:50:33,678 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:50:48,620 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:50:48,762 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:50:57,791 INFO  [Log] Navigated to specify URL: http://www.seleniumframework.com/Practiceform/ 
+2016-12-13 13:50:57,909 INFO  [Log] *Try to input value* 
+2016-12-13 13:50:58,322 INFO  [Log] Inputed value: doai.tran@seldatinc.com to element TXT_EMAIL 
+2016-12-13 13:50:58,420 INFO  [Log] *Try to Wait for element present* 
+2016-12-13 13:50:59,761 INFO  [Log] Element: WMB_TUTORIALS is presented. 
+2016-12-13 13:50:59,852 INFO  [Log] *Try to hover to move To Element* 
+2016-12-13 13:51:00,013 INFO  [Log] Hovered to move To Element: WMB_TUTORIALS 
+2016-12-13 13:51:00,276 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:51:00,549 INFO  [Log] Clicked on WebElement WMB_TUTORIALS 
+2016-12-13 13:51:00,691 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:51:00,943 INFO  [Log] Clicked on WebElement WMB_STRATEGICDECISION 
+2016-12-13 13:51:01,013 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 13:51:06,014 INFO  [Log] Waited for 5 seconds 
+2016-12-13 13:51:06,112 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:51:06,803 INFO  [Log] *Closed the browser* 
+2016-12-13 13:51:06,803 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:51:06,803 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:51:06,803 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:51:06,803 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:51:06,803 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:51:06,804 INFO  [Log] X 
+2016-12-13 13:51:06,804 INFO  [Log] X 
+2016-12-13 13:51:06,804 INFO  [Log] X 
+2016-12-13 13:51:06,804 INFO  [Log] X 
+2016-12-13 13:51:06,804 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:51:06,804 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:51:06,804 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:51:06,804 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase4       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:51:06,804 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:51:06,804 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:51:06,804 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:51:14,627 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:51:14,707 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:51:34,395 INFO  [Log] Navigated to specify URL: http://toolsqa.wpengine.com/iframe-practice-page/ 
+2016-12-13 13:51:34,490 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 13:51:39,490 INFO  [Log] Waited for 5 seconds 
+2016-12-13 13:51:39,613 INFO  [Log] *Try to switch to iFrame with name* 
+2016-12-13 13:51:39,863 INFO  [Log] We are in iFrame with Name: iframe1 
+2016-12-13 13:51:39,956 INFO  [Log] *Try to switch to Main Page layout* 
+2016-12-13 13:51:40,002 INFO  [Log] We are in Main Page layout. 
+2016-12-13 13:51:40,125 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 13:51:45,126 INFO  [Log] Waited for 5 seconds 
+2016-12-13 13:51:45,226 INFO  [Log] *Try to switch to iFrame with iFrameID* 
+2016-12-13 13:51:55,378 INFO  [Log] We are in iFrame with ID: IF1 
+2016-12-13 13:51:55,463 INFO  [Log] *Try to switch to Main Page layout* 
+2016-12-13 13:51:55,503 INFO  [Log] We are in Main Page layout. 
+2016-12-13 13:51:55,568 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:51:56,240 INFO  [Log] *Closed the browser* 
+2016-12-13 13:51:56,240 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:51:56,241 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:51:56,241 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:51:56,241 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:51:56,241 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:51:56,241 INFO  [Log] X 
+2016-12-13 13:51:56,241 INFO  [Log] X 
+2016-12-13 13:51:56,241 INFO  [Log] X 
+2016-12-13 13:51:56,241 INFO  [Log] X 
+2016-12-13 13:51:56,242 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:51:56,242 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:51:56,242 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:51:56,242 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase5       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:51:56,242 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:51:56,242 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:51:56,243 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:52:04,121 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:52:04,200 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:52:12,125 INFO  [Log] Navigated to specify URL: http://www.seleniumframework.com/Practiceform/ 
+2016-12-13 13:52:12,206 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:52:12,500 INFO  [Log] Clicked on WebElement TEXT_DATE 
+2016-12-13 13:52:12,565 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:52:12,967 INFO  [Log] Clicked on WebElement BTN_ADDMONTH 
+2016-12-13 13:52:13,024 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:52:13,694 INFO  [Log] Clicked on WebElement BTN_ADDMONTH 
+2016-12-13 13:52:13,695 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:52:13,998 INFO  [Log] Clicked on WebElement BTN_SWBMONTH 
+2016-12-13 13:52:14,411 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:52:14,990 INFO  [Log] *Closed the browser* 
+2016-12-13 13:52:14,990 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:52:14,990 INFO  [Log] X 
+2016-12-13 13:52:14,990 INFO  [Log] X 
+2016-12-13 13:52:14,990 INFO  [Log] X 
+2016-12-13 13:52:14,990 INFO  [Log] X 
+2016-12-13 13:52:14,991 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:52:14,991 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:52:14,991 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:52:14,991 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase6       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:52:14,991 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:52:14,991 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:52:14,991 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:52:24,726 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:52:24,832 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:52:33,895 INFO  [Log] Navigated to specify URL: http://www.seleniumframework.com/Practiceform/ 
+2016-12-13 13:52:33,997 INFO  [Log] *Try to input value* 
+2016-12-13 13:52:35,526 INFO  [Log] Inputed value: 11/23/2016 to element TEXT_DATE 
+2016-12-13 13:52:35,620 INFO  [Log] *Try to input value* 
+2016-12-13 13:52:36,105 INFO  [Log] Inputed value: ybox.com to element TXT_URL 
+2016-12-13 13:52:36,205 INFO  [Log] *Try to submit the button* 
+2016-12-13 13:52:36,342 INFO  [Log] Submitted the button: TXT_URL 
+2016-12-13 13:52:36,343 INFO  [Log] *Try to verify text between get from element and expected text* 
+2016-12-13 13:52:36,461 INFO  [Log] Expected text on TEXT_URLERRORand actual text: Please enter a valid URL. are the same. 
+2016-12-13 13:52:36,462 INFO  [Log] *Try to input value* 
+2016-12-13 13:52:37,069 INFO  [Log] Inputed value: http://www.seleniumframework.com to element TXT_URL 
+2016-12-13 13:52:37,573 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:52:39,470 INFO  [Log] *Closed the browser* 
+2016-12-13 13:52:39,598 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:52:39,598 INFO  [Log] X 
+2016-12-13 13:52:39,598 INFO  [Log] X 
+2016-12-13 13:52:39,598 INFO  [Log] X 
+2016-12-13 13:52:39,598 INFO  [Log] X 
+2016-12-13 13:52:39,598 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:52:39,598 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:52:39,598 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:52:39,598 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase7       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:52:39,598 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:52:39,598 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:52:39,599 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:52:50,196 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:52:50,289 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:52:55,595 INFO  [Log] Navigated to specify URL: http://only-testing-blog.blogspot.in/2013/11/new-test.html 
+2016-12-13 13:52:55,690 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 13:53:00,690 INFO  [Log] Waited for 5 seconds 
+2016-12-13 13:53:00,838 INFO  [Log] *Try toVerify Element is existed* 
+2016-12-13 13:53:01,051 INFO  [Log] Element: TBL_TESTTABLE is existed 
+2016-12-13 13:53:01,140 INFO  [Log] *Try to verify Text In Table* 
+2016-12-13 13:53:02,209 INFO  [Log] Value: 22 on table: TBL_TESTTABLE is existing. 
+2016-12-13 13:53:02,309 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:53:03,054 INFO  [Log] *Closed the browser* 
+2016-12-13 13:53:03,240 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:53:03,240 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:53:03,241 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:53:03,241 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:53:03,387 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:53:03,387 INFO  [Log] X 
+2016-12-13 13:53:03,387 INFO  [Log] X 
+2016-12-13 13:53:03,387 INFO  [Log] X 
+2016-12-13 13:53:03,387 INFO  [Log] X 
+2016-12-13 13:53:03,388 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:53:03,388 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:53:03,388 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:53:03,388 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase8       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:53:03,388 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:53:03,388 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:53:03,388 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:53:11,997 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:53:12,088 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:53:16,836 INFO  [Log] Navigated to specify URL: http://only-testing-blog.blogspot.in/2014/02/attributes.html 
+2016-12-13 13:53:16,925 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 13:53:21,925 INFO  [Log] Waited for 5 seconds 
+2016-12-13 13:53:22,001 INFO  [Log] *Try to verify Checkbox Is Checked* 
+2016-12-13 13:53:22,122 INFO  [Log] CheckBox: CHK_MILK is checked. 
+2016-12-13 13:53:22,202 INFO  [Log] *Try to verify Checkbox Is Not Checked* 
+2016-12-13 13:53:22,252 INFO  [Log] CheckBox: CHK_BUTTER is NOT checked. 
+2016-12-13 13:53:22,322 INFO  [Log] *Try to verify Radio Is Not Checked* 
+2016-12-13 13:53:22,380 INFO  [Log] Radio: RDB_MALE is NOT checked. 
+2016-12-13 13:53:22,456 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:53:22,684 INFO  [Log] Clicked on WebElement RDB_MALE 
+2016-12-13 13:53:22,750 INFO  [Log] *Try to verify Radio Is Checked* 
+2016-12-13 13:53:22,798 INFO  [Log] Radio: RDB_MALE is checked. 
+2016-12-13 13:53:22,866 INFO  [Log] *Try to verify Radio Is Not Checked* 
+2016-12-13 13:53:22,922 INFO  [Log] Radio: RDB_FEMALE is NOT checked. 
+2016-12-13 13:53:22,993 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:53:23,648 INFO  [Log] *Closed the browser* 
+2016-12-13 13:53:23,719 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:53:23,719 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:53:23,719 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:53:23,719 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:53:23,795 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:53:23,795 INFO  [Log] X 
+2016-12-13 13:53:23,796 INFO  [Log] X 
+2016-12-13 13:53:23,796 INFO  [Log] X 
+2016-12-13 13:53:23,796 INFO  [Log] X 
+2016-12-13 13:53:23,796 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:53:23,796 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:53:23,796 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:53:23,796 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase9       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:53:23,796 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:53:23,796 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:53:23,796 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:53:31,317 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:53:31,416 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:53:35,185 INFO  [Log] Navigated to specify URL: http://www.javascripttoolbox.com/lib/mktree/ 
+2016-12-13 13:53:35,248 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 13:53:40,248 INFO  [Log] Waited for 5 seconds 
+2016-12-13 13:53:40,330 INFO  [Log] *Try to click TreeView Item* 
+2016-12-13 13:53:41,252 INFO  [Log] Item config.txt is existed in TreeView: TREE_DEFAULT 
+2016-12-13 13:53:41,343 INFO  [Log] *Try to verify TreeView Item Exist* 
+2016-12-13 13:53:43,205 INFO  [Log] Item schedule.idis existed in tree view: TREE_DEFAULT 
+2016-12-13 13:53:43,259 INFO  [Log] *Try to verify TreeView Item Not Exist* 
+2016-12-13 13:53:44,910 INFO  [Log] Item AAAAAAAAAis existed in TreeView: TREE_DEFAULT 
+2016-12-13 13:53:44,911 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:53:45,579 INFO  [Log] *Closed the browser* 
+2016-12-13 13:57:37,296 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:57:37,297 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:57:37,297 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:57:37,297 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase1       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:57:37,297 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:57:37,297 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:57:37,298 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:57:42,103 INFO  [Log] Opened Browser: Chrome 
+2016-12-13 13:57:42,505 INFO  [Log] *Try to navigate to URL* 
+2016-12-13 13:57:55,452 INFO  [Log] Navigated to BASE_URL 
+2016-12-13 13:57:55,668 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:58:01,692 INFO  [Log] Clicked on WebElement TXT_STRATEGICDECISION 
+2016-12-13 13:58:01,908 INFO  [Log] *Try to navigate to back page* 
+2016-12-13 13:58:08,300 INFO  [Log] Navigated to back page 
+2016-12-13 13:58:08,470 INFO  [Log] *Try to Wait for element present* 
+2016-12-13 13:58:08,532 INFO  [Log] Element: TXT_LEADERSHIP is presented. 
+2016-12-13 13:58:08,662 INFO  [Log] *Try toVerify Element is existed* 
+2016-12-13 13:58:08,678 INFO  [Log] Element: TXT_LEADERSHIP is existed 
+2016-12-13 13:58:08,816 INFO  [Log] *Try to verify text between get from element and expected text* 
+2016-12-13 13:58:08,890 INFO  [Log] Expected text on TXT_AGILETESTINGand actual text: Agile Testing and ATDD Automation –  Free Tutorials are the same. 
+2016-12-13 13:58:09,016 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:58:10,092 INFO  [Log] *Closed the browser* 
+2016-12-13 13:58:10,201 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:10,201 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:10,201 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:10,201 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:10,313 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:58:10,313 INFO  [Log] X 
+2016-12-13 13:58:10,314 INFO  [Log] X 
+2016-12-13 13:58:10,314 INFO  [Log] X 
+2016-12-13 13:58:10,314 INFO  [Log] X 
+2016-12-13 13:58:10,314 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:10,314 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:10,314 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:10,314 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase2       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:58:10,314 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:10,314 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:10,315 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:58:17,466 INFO  [Log] Opened Browser:  
+2016-12-13 13:58:17,679 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:58:23,611 INFO  [Log] Navigated to specify URL: http://www.seleniumframework.com/Practiceform/ 
+2016-12-13 13:58:23,695 INFO  [Log] *Try to input value* 
+2016-12-13 13:58:24,194 INFO  [Log] Inputed value: We will test with Tiếng Việt value and special key !@#$@#%@%# to element TXT_TEXTAREA 
+2016-12-13 13:58:24,290 INFO  [Log] *Try to input value* 
+2016-12-13 13:58:24,551 INFO  [Log] Inputed value: ABCDEDF GHYUI IOPU to element TXT_BOX 
+2016-12-13 13:58:24,642 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:58:25,477 INFO  [Log] Clicked on WebElement CHK_OPTION1 
+2016-12-13 13:58:25,561 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:58:25,814 INFO  [Log] Clicked on WebElement LBL_OPTION1 
+2016-12-13 13:58:25,929 INFO  [Log] *Try to select by visible text* 
+2016-12-13 13:58:26,232 INFO  [Log] Selected LST_OPTION by visible text: Option 1 
+2016-12-13 13:58:26,324 INFO  [Log] *Try to select by visible text* 
+2016-12-13 13:58:26,676 INFO  [Log] Selected LST_OPTION by visible text: Option 2 
+2016-12-13 13:58:26,780 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:58:27,398 INFO  [Log] *Closed the browser* 
+2016-12-13 13:58:27,500 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:27,500 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:27,500 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:27,500 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:27,767 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:58:27,767 INFO  [Log] X 
+2016-12-13 13:58:27,767 INFO  [Log] X 
+2016-12-13 13:58:27,767 INFO  [Log] X 
+2016-12-13 13:58:27,767 INFO  [Log] X 
+2016-12-13 13:58:27,768 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:27,768 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:27,768 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:27,768 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase3       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:58:27,768 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:27,768 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:27,768 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:58:34,492 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:58:34,600 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:58:40,809 INFO  [Log] Navigated to specify URL: http://www.seleniumframework.com/Practiceform/ 
+2016-12-13 13:58:40,942 INFO  [Log] *Try to input value* 
+2016-12-13 13:58:41,206 INFO  [Log] Inputed value: doai.tran@seldatinc.com to element TXT_EMAIL 
+2016-12-13 13:58:41,293 INFO  [Log] *Try to Wait for element present* 
+2016-12-13 13:58:41,856 INFO  [Log] Element: WMB_TUTORIALS is presented. 
+2016-12-13 13:58:41,926 INFO  [Log] *Try to hover to move To Element* 
+2016-12-13 13:58:42,057 INFO  [Log] Hovered to move To Element: WMB_TUTORIALS 
+2016-12-13 13:58:42,151 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:58:42,331 INFO  [Log] Clicked on WebElement WMB_TUTORIALS 
+2016-12-13 13:58:42,395 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:58:42,545 INFO  [Log] Clicked on WebElement WMB_STRATEGICDECISION 
+2016-12-13 13:58:42,610 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 13:58:47,610 INFO  [Log] Waited for 5 seconds 
+2016-12-13 13:58:47,719 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:58:49,238 INFO  [Log] *Closed the browser* 
+2016-12-13 13:58:49,303 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:49,303 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:49,303 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:49,303 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:49,376 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:58:49,376 INFO  [Log] X 
+2016-12-13 13:58:49,376 INFO  [Log] X 
+2016-12-13 13:58:49,376 INFO  [Log] X 
+2016-12-13 13:58:49,376 INFO  [Log] X 
+2016-12-13 13:58:49,376 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:58:49,376 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:49,376 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:49,376 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase4       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:58:49,376 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:49,376 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:58:49,376 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:58:56,334 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:58:56,420 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:59:12,128 INFO  [Log] Navigated to specify URL: http://toolsqa.wpengine.com/iframe-practice-page/ 
+2016-12-13 13:59:12,197 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 13:59:17,198 INFO  [Log] Waited for 5 seconds 
+2016-12-13 13:59:17,283 INFO  [Log] *Try to switch to iFrame with name* 
+2016-12-13 13:59:17,422 INFO  [Log] We are in iFrame with Name: iframe1 
+2016-12-13 13:59:17,487 INFO  [Log] *Try to switch to Main Page layout* 
+2016-12-13 13:59:17,522 INFO  [Log] We are in Main Page layout. 
+2016-12-13 13:59:17,587 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 13:59:22,588 INFO  [Log] Waited for 5 seconds 
+2016-12-13 13:59:22,719 INFO  [Log] *Try to switch to iFrame with iFrameID* 
+2016-12-13 13:59:32,743 INFO  [Log] We are in iFrame with ID: IF1 
+2016-12-13 13:59:32,814 INFO  [Log] *Try to switch to Main Page layout* 
+2016-12-13 13:59:32,849 INFO  [Log] We are in Main Page layout. 
+2016-12-13 13:59:32,921 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:59:33,533 INFO  [Log] *Closed the browser* 
+2016-12-13 13:59:33,595 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:59:33,595 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:59:33,595 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:59:33,595 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:59:33,659 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:59:33,659 INFO  [Log] X 
+2016-12-13 13:59:33,659 INFO  [Log] X 
+2016-12-13 13:59:33,659 INFO  [Log] X 
+2016-12-13 13:59:33,659 INFO  [Log] X 
+2016-12-13 13:59:33,659 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:59:33,659 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:59:33,659 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:59:33,659 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase5       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:59:33,659 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:59:33,659 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:59:33,659 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:59:40,335 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:59:40,412 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 13:59:46,916 INFO  [Log] Navigated to specify URL: http://www.seleniumframework.com/Practiceform/ 
+2016-12-13 13:59:46,983 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:59:47,282 INFO  [Log] Clicked on WebElement TEXT_DATE 
+2016-12-13 13:59:47,355 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:59:47,742 INFO  [Log] Clicked on WebElement BTN_ADDMONTH 
+2016-12-13 13:59:47,812 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:59:48,168 INFO  [Log] Clicked on WebElement BTN_ADDMONTH 
+2016-12-13 13:59:48,225 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:59:48,440 INFO  [Log] Clicked on WebElement BTN_SWBMONTH 
+2016-12-13 13:59:48,506 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 13:59:48,650 INFO  [Log] Clicked on WebElement TBL_DAY22 
+2016-12-13 13:59:48,723 INFO  [Log] *Try to close the browser* 
+2016-12-13 13:59:49,454 INFO  [Log] *Closed the browser* 
+2016-12-13 13:59:49,517 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:59:49,518 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:59:49,518 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:59:49,518 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:59:49,580 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 13:59:49,580 INFO  [Log] X 
+2016-12-13 13:59:49,580 INFO  [Log] X 
+2016-12-13 13:59:49,580 INFO  [Log] X 
+2016-12-13 13:59:49,580 INFO  [Log] X 
+2016-12-13 13:59:49,580 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 13:59:49,580 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:59:49,580 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:59:49,580 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase6       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 13:59:49,581 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:59:49,581 INFO  [Log] **************************************************************************************** 
+2016-12-13 13:59:49,581 INFO  [Log] *Try to Open Browser* 
+2016-12-13 13:59:56,090 INFO  [Log] Opened Browser: FF 
+2016-12-13 13:59:56,177 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 14:00:03,003 INFO  [Log] Navigated to specify URL: http://www.seleniumframework.com/Practiceform/ 
+2016-12-13 14:00:03,066 INFO  [Log] *Try to input value* 
+2016-12-13 14:00:03,700 INFO  [Log] Inputed value: 11/23/2016 to element TEXT_DATE 
+2016-12-13 14:00:03,775 INFO  [Log] *Try to input value* 
+2016-12-13 14:00:05,144 INFO  [Log] Inputed value: ybox.com to element TXT_URL 
+2016-12-13 14:00:05,210 INFO  [Log] *Try to submit the button* 
+2016-12-13 14:00:05,296 INFO  [Log] Submitted the button: TXT_URL 
+2016-12-13 14:00:05,389 INFO  [Log] *Try to verify text between get from element and expected text* 
+2016-12-13 14:00:05,494 INFO  [Log] Expected text on TEXT_URLERRORand actual text: Please enter a valid URL. are the same. 
+2016-12-13 14:00:05,580 INFO  [Log] *Try to input value* 
+2016-12-13 14:00:05,956 INFO  [Log] Inputed value: http://www.seleniumframework.com to element TXT_URL 
+2016-12-13 14:00:06,017 INFO  [Log] *Try to close the browser* 
+2016-12-13 14:00:06,559 INFO  [Log] *Closed the browser* 
+2016-12-13 14:00:06,626 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:06,626 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:06,626 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:06,626 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:06,713 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 14:00:06,713 INFO  [Log] X 
+2016-12-13 14:00:06,713 INFO  [Log] X 
+2016-12-13 14:00:06,713 INFO  [Log] X 
+2016-12-13 14:00:06,713 INFO  [Log] X 
+2016-12-13 14:00:06,714 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:06,714 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:06,714 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:06,714 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase7       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 14:00:06,714 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:06,714 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:06,714 INFO  [Log] *Try to Open Browser* 
+2016-12-13 14:00:13,165 INFO  [Log] Opened Browser: FF 
+2016-12-13 14:00:13,244 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 14:00:17,814 INFO  [Log] Navigated to specify URL: http://only-testing-blog.blogspot.in/2013/11/new-test.html 
+2016-12-13 14:00:17,876 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 14:00:22,876 INFO  [Log] Waited for 5 seconds 
+2016-12-13 14:00:22,924 INFO  [Log] *Try toVerify Element is existed* 
+2016-12-13 14:00:23,003 INFO  [Log] Element: TBL_TESTTABLE is existed 
+2016-12-13 14:00:23,059 INFO  [Log] *Try to verify Text In Table* 
+2016-12-13 14:00:23,404 INFO  [Log] Value: 22 on table: TBL_TESTTABLE is existing. 
+2016-12-13 14:00:23,457 INFO  [Log] *Try to close the browser* 
+2016-12-13 14:00:24,027 INFO  [Log] *Closed the browser* 
+2016-12-13 14:00:24,108 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:24,108 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:24,108 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:24,108 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:24,181 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 14:00:24,181 INFO  [Log] X 
+2016-12-13 14:00:24,181 INFO  [Log] X 
+2016-12-13 14:00:24,181 INFO  [Log] X 
+2016-12-13 14:00:24,181 INFO  [Log] X 
+2016-12-13 14:00:24,181 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:24,181 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:24,181 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:24,181 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase8       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 14:00:24,181 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:24,181 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:24,181 INFO  [Log] *Try to Open Browser* 
+2016-12-13 14:00:30,834 INFO  [Log] Opened Browser: FF 
+2016-12-13 14:00:30,949 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 14:00:34,892 INFO  [Log] Navigated to specify URL: http://only-testing-blog.blogspot.in/2014/02/attributes.html 
+2016-12-13 14:00:34,972 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 14:00:39,973 INFO  [Log] Waited for 5 seconds 
+2016-12-13 14:00:40,043 INFO  [Log] *Try to verify Checkbox Is Checked* 
+2016-12-13 14:00:40,125 INFO  [Log] CheckBox: CHK_MILK is checked. 
+2016-12-13 14:00:40,173 INFO  [Log] *Try to verify Checkbox Is Not Checked* 
+2016-12-13 14:00:40,213 INFO  [Log] CheckBox: CHK_BUTTER is NOT checked. 
+2016-12-13 14:00:40,273 INFO  [Log] *Try to verify Radio Is Not Checked* 
+2016-12-13 14:00:40,340 INFO  [Log] Radio: RDB_MALE is NOT checked. 
+2016-12-13 14:00:40,392 INFO  [Log] *Try to Click on WebElement* 
+2016-12-13 14:00:40,671 INFO  [Log] Clicked on WebElement RDB_MALE 
+2016-12-13 14:00:40,733 INFO  [Log] *Try to verify Radio Is Checked* 
+2016-12-13 14:00:40,788 INFO  [Log] Radio: RDB_MALE is checked. 
+2016-12-13 14:00:40,845 INFO  [Log] *Try to verify Radio Is Not Checked* 
+2016-12-13 14:00:40,900 INFO  [Log] Radio: RDB_FEMALE is NOT checked. 
+2016-12-13 14:00:40,973 INFO  [Log] *Try to close the browser* 
+2016-12-13 14:00:41,768 INFO  [Log] *Closed the browser* 
+2016-12-13 14:00:41,827 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:41,827 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:41,828 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:41,828 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:41,885 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 14:00:41,885 INFO  [Log] X 
+2016-12-13 14:00:41,885 INFO  [Log] X 
+2016-12-13 14:00:41,885 INFO  [Log] X 
+2016-12-13 14:00:41,885 INFO  [Log] X 
+2016-12-13 14:00:41,885 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:41,885 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:41,886 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:41,886 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 TestCase9       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2016-12-13 14:00:41,886 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:41,886 INFO  [Log] **************************************************************************************** 
+2016-12-13 14:00:41,886 INFO  [Log] *Try to Open Browser* 
+2016-12-13 14:00:48,922 INFO  [Log] Opened Browser: FF 
+2016-12-13 14:00:49,017 INFO  [Log] *Try to navigate to specify URL* 
+2016-12-13 14:00:51,865 INFO  [Log] Navigated to specify URL: http://www.javascripttoolbox.com/lib/mktree/ 
+2016-12-13 14:00:51,941 INFO  [Log] *Try to wait for 5 seconds* 
+2016-12-13 14:00:56,941 INFO  [Log] Waited for 5 seconds 
+2016-12-13 14:00:57,034 INFO  [Log] *Try to click TreeView Item* 
+2016-12-13 14:00:57,382 INFO  [Log] Item config.txt is existed in TreeView: TREE_DEFAULT 
+2016-12-13 14:00:57,438 INFO  [Log] *Try to verify TreeView Item Exist* 
+2016-12-13 14:00:57,769 INFO  [Log] Item schedule.idis existed in tree view: TREE_DEFAULT 
+2016-12-13 14:00:57,830 INFO  [Log] *Try to verify TreeView Item Not Exist* 
+2016-12-13 14:00:58,105 INFO  [Log] Item AAAAAAAAAis existed in TreeView: TREE_DEFAULT 
+2016-12-13 14:00:58,156 INFO  [Log] *Try to close the browser* 
+2016-12-13 14:00:58,725 INFO  [Log] *Closed the browser* 
+2016-12-13 14:00:58,779 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,779 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,779 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,780 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,855 INFO  [Log] XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX 
+2016-12-13 14:00:58,855 INFO  [Log] X 
+2016-12-13 14:00:58,855 INFO  [Log] X 
+2016-12-13 14:00:58,855 INFO  [Log] X 
+2016-12-13 14:00:58,855 INFO  [Log] X 
+2016-12-13 14:00:58,855 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,855 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,855 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,855 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,855 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,855 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
+2016-12-13 14:00:58,856 ERROR [Log] Class ReadWriteExcel| Method getCellData | Exception desc: null 
