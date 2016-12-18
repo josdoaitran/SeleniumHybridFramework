@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="211522" started-at="2016-12-13T10:08:37Z" finished-at="2016-12-13T10:12:09Z">
+  <suite name="Suite" duration-ms="242817" started-at="2016-12-14T03:29:39Z" finished-at="2016-12-14T03:33:42Z">
     <groups>
     </groups>
-    <test name="Regression" duration-ms="211522" started-at="2016-12-13T10:08:37Z" finished-at="2016-12-13T10:12:09Z">
+    <test name="Regression" duration-ms="242817" started-at="2016-12-14T03:29:39Z" finished-at="2016-12-14T03:33:42Z">
       <class name="executionEngine.RunTestNG">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:executionEngine.RunTestNG@68837a77]" name="setUp" is-config="true" duration-ms="5" started-at="2016-12-13T17:08:37Z" finished-at="2016-12-13T17:08:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:executionEngine.RunTestNG@68837a77]" name="setUp" is-config="true" duration-ms="7" started-at="2016-12-14T10:29:39Z" finished-at="2016-12-14T10:29:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="main()[pri:0, instance:executionEngine.RunTestNG@68837a77]" name="main" duration-ms="211500" started-at="2016-12-13T17:08:37Z" finished-at="2016-12-13T17:12:09Z">
+        <test-method status="PASS" signature="main()[pri:0, instance:executionEngine.RunTestNG@68837a77]" name="main" duration-ms="242793" started-at="2016-12-14T10:29:39Z" finished-at="2016-12-14T10:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:executionEngine.RunTestNG@68837a77]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-13T17:12:09Z" finished-at="2016-12-13T17:12:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:executionEngine.RunTestNG@68837a77]" name="tearDown" is-config="true" duration-ms="0" started-at="2016-12-14T10:33:42Z" finished-at="2016-12-14T10:33:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
